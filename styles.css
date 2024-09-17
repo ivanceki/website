@@ -43,7 +43,7 @@ body {
 }
 #about p {
     font-size: 1.1rem;
-    text-align: center;
+    text-align: left;
     color: #c4c4c4;
     margin-bottom: 50px;
 }
@@ -53,6 +53,12 @@ body {
     background-color: #2d333c;
     padding: 50px 0;
 }
+#services h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 .service-item {
     color: #ffffff;
     background-color: #3a3f48; /* Slight contrast */
@@ -61,8 +67,10 @@ body {
     border-radius: 8px;
 }
 .service-item img {
+    display: block;
     width: 80px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
+    
 }
 
 /* Contact Section */
@@ -72,43 +80,46 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 50px 0;
+    background-color: #2d333c; /* Dark blue-gray background */
 }
-
+#contact h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 form {
     width: 100%;
-    max-width: 500px; /* Control form width */
+    max-width: 500px; /* Controls form width */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 form input, form textarea {
-    width: 100%; /* Make inputs take full width of the form */
-    max-width: 500px; /* Adjust max width to control size */
-    height: 50px; /* Increase the height for better visibility */
-    padding: 10px; /* Add padding for more space inside inputs */
-    margin-bottom: 20px; /* Adds space between the fields */
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid #4a90e2; /* Light blue border */
     background-color: #ffffff;
     color: #333333;
 }
-
-form textarea {
-    height: 150px; /* Increase height for the message box */
-}
-
 form button {
-    display: block;
-    width: 100%; /* Make button take full form width */
-    margin-top: 20px; /* Add spacing between form and button */
+    width: 100%;
     padding: 10px;
     background-color: #4a90e2;
     color: #ffffff;
     border: none;
     border-radius: 5px;
-    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
 }
+
+form button:hover {
+    background-color: #357ab8; /* Darker blue for hover effect */
+}
+
 /* Footer */
 footer {
     background-color: #1f2327; /* Darker gray */
