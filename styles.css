@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+    background-color: #2d333c; /* Dark blue-gray */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #2d333c; 
+    text-align: center;
+    padding: 100px 0;
+}
+#hero h1, #hero p {
+    color: #ffffff;
+}
+
+/* Button Styles */
+.cta-button {
+    background-color: #4a90e2; /* Light blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+    background-color: #357ab8; /* Darker blue */
+}
+
+/* About Section */
+#about {
+    background-color: #2d333c;
+    padding: 50px 0;
+}
+#about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#about p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #c4c4c4;
+    margin-bottom: 50px;
+}
+
+/* Services Section */
+#services {
+    background-color: #2d333c;
+    padding: 50px 0;
+}
+.service-item {
+    color: #ffffff;
+    background-color: #3a3f48; /* Slight contrast */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+.service-item img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+form {
+    width: 100%;
+    max-width: 500px; /* Control form width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%; /* Make inputs take full width of the form */
+    max-width: 500px; /* Adjust max width to control size */
+    height: 50px; /* Increase the height for better visibility */
+    padding: 10px; /* Add padding for more space inside inputs */
+    margin-bottom: 20px; /* Adds space between the fields */
+    border-radius: 5px;
+    border: 1px solid #4a90e2; /* Light blue border */
+    background-color: #ffffff;
+    color: #333333;
+}
+
+form textarea {
+    height: 150px; /* Increase height for the message box */
+}
+
+form button {
+    display: block;
+    width: 100%; /* Make button take full form width */
+    margin-top: 20px; /* Add spacing between form and button */
+    padding: 10px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    background-color: #1f2327; /* Darker gray */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+footer .social-icons a {
+    color: #4a90e2;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.logo {
+    max-width: 300px; /* Adjust the size here */
+    height: auto;
+    display: block;
+    margin: 0 auto 30px auto; /* Centers the logo */
+}
+.services-grid {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between items */
+    flex-wrap: wrap; /* Makes it responsive */
+}
+
+.service-item {
+    flex: 1;
+    margin: 10px; /* Space between items */
+}
